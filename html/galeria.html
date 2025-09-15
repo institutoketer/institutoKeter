@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keter - Galería</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Nunito:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <!-- Encabezado / Menú de navegación -->
+  <header>
+    <div class="header-content container">
+      <!-- Logo -->
+      <a href="../index.html" class="logo">
+        <img src="../img/logos/inicioLogo.png" alt="Logo Keter">
+      </a>
+
+      <!-- Botón hamburguesa -->
+      <button id="menu-toggle" class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <!-- Menú de navegación -->
+      <nav id="navbar" class="nav-menu">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="valores.html">Valores</a></li>
+          <li><a href="contactanos.html">Contáctanos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sección principal -->
+  <main>
+    <div class="galeria-header">
+      <h1>📸 Galería de Fotos</h1>
+      <p>Revive con nosotros algunos de los momentos más especiales del Instituto Keter.</p>
+    </div>
+
+    <!-- Arte -->
+    <section class="galeria-evento">
+      <h2>Pintando y Pegando</h2>
+      <div class="galeria-grid">
+        <img src="../img/galeria/arte1.jpg" alt="Arte 1">
+        <img src="../img/galeria/arte2.jpg" alt="Arte 2">
+        <img src="../img/galeria/arte3.jpg" alt="Arte 3">
+      </div>
+    </section>
+
+    <!-- Chef -->
+    <section class="galeria-evento">
+      <h2>Chefs y Alimentos</h2>
+      <div class="galeria-grid">
+        <img src="../img/galeria/chef1.jpg" alt="Chef 1">
+        <img src="../img/galeria/chef2.jpg" alt="Chef 2">
+      </div>
+    </section>
+
+    <!-- Arte -->
+    <section class="galeria-evento">
+      <h2>Tierra y plantas</h2>
+      <div class="galeria-grid">
+        <img src="../img/galeria/tierra1.jpg" alt="Tierra 1">
+        <img src="../img/galeria/tierra2.jpg" alt="Tierra 2">
+        <img src="../img/galeria/tierra3.jpg" alt="Tierra 3">
+      </div>
+    </section>
+
+    <!-- Doctor -->
+    <section class="galeria-evento">
+      <h2>Doctoras</h2>
+      <div class="galeria-grid">
+        <img src="../img/galeria/doctor1.jpg" alt="Doctor 1">
+        <img src="../img/galeria/doctor2.jpg" alt="Doctor 2">
+      </div>
+    </section>
+
+    <!-- Viva Colombia -->
+    <section class="galeria-evento">
+      <h2>Viva Colombia</h2>
+      <div class="galeria-grid">
+        <img src="../img/galeria/vivaColombia1.jpg" alt="Viva Colombia 1">
+        <img src="../img/galeria/vivaColombia2.jpg" alt="Viva Colombia 2">
+        <img src="../img/galeria/vivaColombia3.jpg" alt="Viva Colombia 3">
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img">
+  </div>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-info">
+        <h3>Contáctanos</h3>
+        <p><strong>Tel:</strong> +57 302 763 6403</p>
+        <p><strong>Email:</strong> institutoketer@gmail.com</p>
+        <p><strong>Dirección:</strong> Diagonal 36 #15A-32, Soacha Terreros</p>
+      </div>
+      <div class="footer-social">
+        <h3>Síguenos en</h3>
+        <a href="https://www.instagram.com/gimnasioketer" target="_blank">📸 Instagram</a>
+        <a href="https://www.facebook.com/share/1S36HjgpyB/" target="_blank">📘 Facebook</a>
+        <a href="https://www.tiktok.com/@instituto.keter" target="_blank">🎵 TikTok</a>
+      </div>
+    </div>
+    <div class="footer-logo">
+      <img src="../img/logos/footer-logo.png" alt="Instituto Keter Logo">
+    </div>
+    <div class="footer-copy">
+      <p>&copy; 2025 Instituto Keter. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="../js/scriptGaleria.js"></script>
+  <script src="../JS/scriptPrincipal.js"></script>
+</body>
+
+</html>
